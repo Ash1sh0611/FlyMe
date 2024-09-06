@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* .logo {
+    position: absolute;
+    top: 18px;
+    left: 28px;
+    width: 214px;
+    height: 207px;
+    object-fit: cover;
+    z-index: 2;
+} */
+
+.grey {
+    background: #D9D9D9;
+}
+
+#header {
+    border-width: 5px;
+    border-bottom-color: rgb(56, 56, 56);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+}
+
+.side-container {
+    border-width: 5px;
+    border-right-color: rgb(56, 56, 56);
+    border-right-style: solid;
+    border-right-width: 3px;
+}
+
+input[type=radio]{
+    transform:scale(1.5);
+  }
+
+  input[type=range]{
+    transform:scale(1.2);
+  }
+
+  #footer-logo{
+    transform:scale(0.2) ;
+  }

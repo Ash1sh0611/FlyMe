@@ -1,0 +1,28 @@
+{
+  "name": "flyme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amadeus": "^8.0.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "node-fetch-npm": "^2.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25",
+    "nodemon": "*"
+  }
+}
